@@ -15,7 +15,6 @@ const App = () => {
   return (
     <div className='mx-4 sm:max-[10%]'>
       <Navbar/>
-
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
